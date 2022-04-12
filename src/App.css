@@ -1,0 +1,82 @@
+.header{
+  background-color: rgb(221, 24, 24);
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.header h1{
+  /* width: 65px; */
+  /* height: 65px; */
+}
+.header p{
+  font-weight: bold;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+}
+body{
+  background-color: rgb(211, 200, 211);
+}
+form{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+form input{
+  height: 10vh;
+  padding: 0 10px;
+  font-size: large;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+form input::placeholder{
+  text-align: center;
+  font-size: large;
+}
+form button{
+  padding: 5px 10px;
+  background-color: rgb(53, 53, 141);
+  color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+
+}
+.aboutpage{
+  padding: 40px;
+}
+.about{
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-image{
+  /* width: fit-content;
+  height: fit-content; */
+  border-radius: inherit;
+  flex-basis: 40%;
+}
+.about-image img{
+  border-radius: 20px;
+  
+}
+.about-text{
+  text-align: center;
+  padding: 10px;
+  flex-basis: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-text h4{
+  font-family: 'Permanent Marker', cursive;
+  margin-bottom: 30px;
+}
+.about-text p{
+  font-family: 'Permanent Marker', cursive;
+}
