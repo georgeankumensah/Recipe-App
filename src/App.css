@@ -13,7 +13,7 @@
 .header p{
   font-weight: bold;
   color: white;
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
 }
 body{
   background-color: rgb(211, 200, 211);
@@ -74,9 +74,9 @@ form button{
   justify-content: center;
 }
 .about-text h4{
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
   margin-bottom: 30px;
 }
 .about-text p{
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
 }
